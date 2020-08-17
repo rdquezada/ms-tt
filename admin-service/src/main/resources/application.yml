@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: admin-service
+server:
+  port: 8086
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:8761/eureka/
+    registerWithEureka: false
+    #fetchRegistry: false
